@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<title>PAX Study</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<style>
+body,h1,h2,h4,h5 {font-family: "Arial", sans-serif}
+h3 {font-family: "Arial", sans-serif; color:#004c40}
+li.big {
+  line-height: 2.2;
+}
+div {
+  text-align: justify;
+  text-justify: inter-word;
+}
+ul.nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #004c40;
+}
+
+li.nav {
+  float: left;
+}
+
+li.nav a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li.nav a:hover {
+  background-color: rgb(255, 255, 255);
+  text-decoration: bold;
+  color: #004c40;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #004c40; /* Green */
+  text-decoration: bold;
+}
+</style>
+<body>
+
+<div class="w3-content"  >
+  <a id="home"></a> 
+
+<header class="w3-container w3-center w3-padding-32">
+  <p  align="center" id = img-en style="text-align:center;">
+    <span>
+      <a href="https://play.google.com/store/apps/details?id=info.interactivesystems.pax">
+        <img width="100%" height="auto" src="assets/en.png" >
+      </a></span>
+      <span style="mso-spacerun:'yes';font-family:Arial;font-size:11,0000pt;">
+        <o:p></o:p></span></p>
+
+        <p  align="center" id="img-de" style="text-align:center; display: none;" >
+          <span>
+            <a href="https://play.google.com/store/apps/details?id=info.interactivesystems.pax">
+              <img width="100%" height="auto" src="assets/de.png" >
+            </a></span>
+            <span style="mso-spacerun:'yes';font-family:Arial;font-size:11,0000pt;">
+              <o:p></o:p></span></p>
+
+</header>
+<div class="w3-row">
+  <div class="w3-center">
+    <button class="w3-button w3-padding-large w3-white  button1"  id="lang-trigger"  onclick="triggerLang()"><b>Deutsch</b></button>
+</div>
+</div>
+<br>
+<br>
+<ul class=nav id = "nav-en">
+  <li class=nav><a class="active" href="#home">Home</a></li>
+  <li class=nav><a href="#description">Description of Study</a></li>
+  <li class=nav><a  href="#whatpax">What is PAX</a></li>
+  <li class=nav><a  href="#participate">How to Participate</a></li>
+
+  <li class=nav><a href="https://interactivesystems.info/developments/pax">About the App</a></li>
+  <li class=nav><a href="https://interactivesystems.info/">About Us</a></li>
+  <li class=nav><a href="https://pax-web.interactivesystems.info/gdpr.html">Privacy Policy</a></li>
+  <li class=nav><a href="/installation.html">Tutorial</a></li>
+
+</ul>
+<ul class=nav id = "nav-de"  style="display: none;" >
+  <li class=nav><a class="active" href="#home">Startseite</a></li>
+  <li class=nav><a href="#description-de">Beschreibung der Studie  </a></li>
+  <li class=nav><a  href="#whatpax-de">Was ist PAX</a></li>
+  <li class=nav><a  href="#participate-de">Teilnahme</a></li>
+
+  <li class=nav><a href="https://interactivesystems.info/developments/pax">über die App</a></li>
+  <li class=nav><a href="https://interactivesystems.info/">über uns</a></li>
+  <li class=nav><a href="https://pax-web.interactivesystems.info/gdpr.html">Datenschutzerklärung</a></li>
+  <li class=nav><a href="/installation.html">Tutorial</a></li>
+
+</ul>
+<div class="w3-row">
+<div class="w3-col " id="de" style="display: none;">
+
+
+
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container" >
+      <a id="description-de"></a> 
+      <h3><b>Beschreibung der Studie</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <p>
+        Im Rahmen dieser Feldstudie nutzen Sie eine App zur Stimmungserfassung und Stressreduktion. Die App PAX wird vom Lehrstuhl <a target="_blank" href="https://interactivesystems.info/">Interaktive Systeme der Universität Duisburg-Essen</a> bereitgestellt und kann auf Ihrem Smartphone installiert werden. Die App hilft Ihnen Ihre tagtägliche Stimmung und Stresslevel zu erfassen und schlägt Ihnen unterschiedliche Aktivitäten zur Stressreduktion vor.
+        <br>
+        Ziel der Studie ist es, Empfehlungssysteme für den Bereich der mentalen Gesundheit und das allgemeine Wohlbefinden zu verbessern. Mit Ihrer Teilnahme helfen Sie, Erkenntnisse mittels interaktiver und nutzerorientierter Ansätzen für solche gesundheitsorientierte Systeme zu sammeln.
+        </p>
+    </div>
+  </div>
+
+  <div class="w3-card-4 w3-margin w3-white">
+
+    <div class="w3-container">
+      <a id="whatpax-de"></a>
+      <h3><b>Was ist PAX?</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <p>
+        PAX zielt darauf ab, Ihnen zu helfen, Ihren Gemütszustand sowie Ihr tägliches Stressniveau und Ihre Stimmung zu verstehen und zu verwalten. In dieser App werden drei Bereiche der mentalen Gesundheit - Stress, Stimmung und Selbstwahrnehmung - erfasst und bewertet. Sie erhalten außerdem Empfehlungen, die darauf abzielen, Ihre Gesundheit zu stärken und Ihren Stress langfristig zu reduzieren und zu bewältigen. 
+        </p>
+    </div>
+  </div>
+
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container"> 
+      <a id="participate-de"></a> 
+      <h3><b>Wie kann ich teilnehmen?</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <ol>
+        <li>Installieren Sie die App. 
+          <ul>
+            <li class="big">
+
+              Die App können Sie <a target="_blank" href="https://play.google.com/store/apps/details?id=info.interactivesystems.pax"  style="color: rgb(0, 60, 255);">hier</a> herunterladen.
+            </li>
+          </ul>
+        </li>
+        <li  class="big">
+          Beantworten Sie die Vorstudie mit 3 Aufgaben, ca. 12-18 Minuten 
+          <ul>
+            <li>
+              Die Vorstudie wird Ihnen automatisch beim ersten Starten der App angezeigt
+        </ul>
+        </li>      </li>
+        <li class="big">
+          Geben Sie Ihre Stimmung ein, wie sie sich entwickelt, zweimal am Tag.
+          <ul><li>
+             In den Einstellungen der App können Sie die genaue Zeit angeben und die App weiter personalisieren
+              </ul></li>        </li>
+        <li class="big">
+          Lesen Sie die Empfehlungen, die PAX Ihnen jedes Mal gibt, und geben Sie eine Bewertung ab (1-5 Sterne-Bewertung), wie Sie sie mögen oder nicht mögen.
+        </li>
+        <li class="big">
+          Beantworten Sie die Umfrage an Tag 10 mit 3 Aufgaben, ca. 15 Minuten.
+        <li class="big">
+          Beantworten Sie die Umfrage an Tag 14 mit nur einer Aufgabe, ca. 5 Minuten.
+          <ul><li> Dazu werden Sie automatisch nach 10 und 14 Tagen Nutzung via Push-Mitteilung zu aufgefordert.</ul></li>
+        </li>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>
+        Und, viel Spaß mit der App! :)
+        </b></h3>
+    </div>
+  </div>
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>Weitere Informationen </b></h3>
+    </div>
+    <div class="w3-container">
+      <p>
+        
+        <p>   <a target="_blank" href="https://interactivesystems.info/developments/pax">Über die App hier</a></p>
+       <p> <a target="_blank" href="https://interactivesystems.info/"> Über uns hier</a></p>
+        <p> <a target="_blank" href="https://pax-web.interactivesystems.info/gdpr.html">Datenschutzerklärung finden Sie hier</a></p>
+        <p> <a target="_blank" href="https://www.uni-due.de/2020-11-10-testpersonen-gesucht-fuer-stressresilienz-app">Meldungen aus der Universität Duisburg-Essen hier</a></p>    
+        <p>  <a target="_blank" href="        https://www.radioessen.de/artikel/uni-duisburg-essen-app-soll-helfen-stress-abzubauen-probanden-gesucht-776514.html"> Pressemeldung, Radioessen</a></p>  
+
+      </div>
+  </div>
+</div>
+
+
+<div class="w3-col " id="en" >
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container" >
+      <a id="description"></a> 
+      <h3><b>Description of the study</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <p>
+        In this field study, you will interact with an app for mood assessment and stress reduction. The app PAX is provided by the chair of <a target="_blank" href="https://interactivesystems.info/">Interactive Systems at the University of Duisburg-Essen</a> and can be installed on your smartphone. The app helps you to record your daily mood and stress levels and suggests different activities to reduce stress.
+        <br>
+        The study aims to improve recommender systems for mental health and overall well-being. With your participation, you will help to gather insights by means of interactive and user-oriented approaches for such health-oriented systems.        
+        </p>
+    </div>
+  </div>
+ 
+  <div class="w3-card-4 w3-margin w3-white">
+
+    <div class="w3-container">
+      <a id="whatpax"></a> 
+      <h3><b>What is PAX?</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <p>
+        <a href="https://interactivesystems.info/developments/pax">PAX</a> aims at helping you understand and manage your state of mind as well as your day to day stress levels and mood. It tracks and assesses three areas of mental health - stress, mood, and self-perception. It also provides recommendations aimed at boosting your health as well as reducing and coping with your stress in the long run. Find more information about PAX <a href="https://interactivesystems.info/developments/pax"  style="color: rgb(4, 0, 255);">here</a> and <a href="https://www.uni-due.de/2020-11-10-volunteers-wanted-for-stress-resilience-app"  style="color: rgb(4, 0, 255);">here</a>. 
+      </div>
+  </div>
+
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container" >
+      <a id="participate"></a> 
+      <h3><b>How do I participate?</b></h3>
+    </div>
+
+    <div class="w3-container">
+      <ol>
+        <li>Install the app
+          <ul>
+            <li class="big">
+              You can download the App <a target="_blank" href=
+              "https://play.google.com/store/apps/details?id=info.interactivesystems.pax"
+              style="color: rgb(4, 0, 255);">from this link</a>.
+            </li>
+          </ul>
+        </li>
+        <li class="big">
+          Answer its pre-study survey with 3 tasks, approximately 12-18 minutes
+          <ul class="big">
+          <li>The pre-study will be displayed automatically when you start the app for the first time</li>
+        </li></ul>
+        <li class="big">
+          Enter your mood as it promotes, twice per day
+          <ul>
+            <li> From the app setting you can specify the exact time and further personalize the app       
+            </li>
+          </li></ul>
+        </li>
+        <li class="big">
+          Read the recommendations PAX gives you  every time, and give 1-5 star rating as you like or dislike them.
+        </li>
+        <li class="big">
+          Answer the post-study survey on day 10 with 3 tasks, approximately 15 minutes           
+        </li>
+        <li class="big">
+          Answer the post-study survey on day 14 with only one task, approximately 5 minutes 
+          <ul>
+            <li>You will be automatically prompted to answer post-study survey via push message after 10 and 14 days of use</li>
+          </li></ul>
+        </li><br>
+      </ol>
+    </div>
+  </div>
+
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>And, Enjoy the app! :) </b></h3>
+    </div>
+  </div>
+
+  <div class="w3-card-4 w3-margin w3-white">
+    <div class="w3-container">
+      <h3><b>Further information </b></h3>
+    </div>
+    <div class="w3-container">
+      <p>
+        
+        <p> <a target="_blank" href="https://interactivesystems.info/developments/pax"> About the app here</a></p>
+       <p> <a target="_blank" href="https://interactivesystems.info/">About us here</a></p>
+        <p><a target="_blank" href="https://pax-web.interactivesystems.info/gdpr.html"> Find privacy policy  here</a></p>
+        <p>  <a target="_blank" href="https://www.uni-due.de/2020-11-10-volunteers-wanted-for-stress-resilience-app"> University of Duisburg-Essen press release here</a></p>    
+        <p>  <a target="_blank" href="        https://www.radioessen.de/artikel/uni-duisburg-essen-app-soll-helfen-stress-abzubauen-probanden-gesucht-776514.html"> Press release, Radioessen</a></p>     
+
+
+      </div>
+  </div>
+
+</div>
+
+
+</div>
+
+</div>
+
+</body>
+<script>
+  function triggerLang() {
+    if (document.getElementById("en").style.display == "none"
+     && document.getElementById("img-en").style.display == "none")  {
+      document.getElementById("en").style.display = "block"
+      document.getElementById("de").style.display = "none"
+      document.getElementById("img-en").style.display = "block"
+      document.getElementById("img-de").style.display = "none"
+      document.getElementById("nav-en").style.display = "block"
+      document.getElementById("nav-de").style.display = "none"
+      document.getElementById("lang-trigger").innerHTML = "Deutsch"
+    } else {
+      document.getElementById("en").style.display = "none"
+      document.getElementById("de").style.display = "block"
+      document.getElementById("img-en").style.display = "none"
+      document.getElementById("img-de").style.display = "block"
+      document.getElementById("nav-en").style.display = "none"
+      document.getElementById("nav-de").style.display = "block"
+      document.getElementById("lang-trigger").innerHTML = "English"
+    }   
+  }
+
+
+</script>
+</html>
